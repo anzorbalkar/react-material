@@ -10,7 +10,8 @@
     "build:prod": "NODE_ENV=production webpack -p",
     "build": "npm run build:dev && npm run build:prod",
     "prepublish": "npm run build",
-    "dev": "webpack-dev-server --progress --colors"
+    "dev": "webpack-dev-server --progress --colors",
+    "start": "npm run dev"
   },
   "author": "Anzor Balkar <abalkar@gmail.com>",
   "keywords": [
