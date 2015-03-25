@@ -1,5 +1,6 @@
-require('./index.html');
-require('!file?name=[name].css!../../build/react-material.css');
+//require('./index.html');
+//require('!file?name=[name].css!../../build/react-material.css');
+require('./react-material-docs.less');
 
 var React = require('react');
 var Button = require('react-material').Button;

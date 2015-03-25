@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"No tests\" && exit 1",
     "prebuild": "rm -rf ./build && rm -rf ./dist",
+    "prebuild:dev": "rm -rf ./build",
+    "prebuild:prod": "rm -rf ./dist",
     "build:dev": "webpack --progress --profile --colors",
     "build:prod": "NODE_ENV=production webpack -p",
     "build": "npm run build:dev && npm run build:prod",
