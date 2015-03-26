@@ -30,6 +30,7 @@ var prodConfig = {
   },
   plugins: [new ExtractTextPlugin('react-material.min.css')],
   module: {
+    //noParse: [__dirname + '/third_party/waves.js'],
     loaders: [
       { test: /\.woff2/, loader: 'url-loader'},
       { test: /\.less/, loader: ExtractTextPlugin.extract('css?minimize!less?sourceMap') },

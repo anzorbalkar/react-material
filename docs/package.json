@@ -40,6 +40,8 @@
     "url-loader": "",
     "css-loader": "",
     "less-loader": "",
+    "script-loader": "",
+    "imports-loader": "",
     "less": "^2.3.1",
     "html-webpack-plugin": "",
     "webpack": "^1.4.13",

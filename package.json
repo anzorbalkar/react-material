@@ -35,6 +35,7 @@
     "jsx-loader": "^0.12.2",
     "extract-text-webpack-plugin": "",
     "file-loader": "",
+    "script-loader": "",
     "url-loader": "",
     "css-loader": "",
     "less-loader": "",
